@@ -1,0 +1,101 @@
+.content-options-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-data-summary {
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex; 
+  justify-content: center; 
+  flex-direction: row; /* Change to row for side-by-side layout */
+  max-width: 800px; 
+}
+
+/* Styles for individual data boxes */
+.data-box {
+  flex: 1; /* Each box takes equal space */
+  padding: 10px;
+  margin: 5px;
+  background-color: #fff; /* White background for distinction */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Lighter shadow for the inner boxes */
+  text-align: left; /* Align text inside the boxes to left */
+}
+
+.input-data-summary table {
+  width: 100%; 
+  margin: 0;
+  border-collapse: collapse; /* Remove space between table cells */
+}
+
+.input-data-summary th,
+.input-data-summary td {
+  padding: 8px; 
+  text-align: left; 
+}
+
+/* Remove bullets from list items */
+.input-data-summary ul {
+  list-style-type: none;
+  padding: 0; 
+}
+
+.content-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content-button {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.content-button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content-button img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.content-button-big {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.content-button-big:hover {
+  background-color: #2980b9;
+}
+
+.edit-save-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  margin: 20px 0; /* Add some margin above and below the buttons */
+}
+
+.save-button, .edit-button {
+  background-color: #fdd835; /* Yellowish color */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}

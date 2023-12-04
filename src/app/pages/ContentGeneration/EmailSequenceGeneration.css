@@ -1,0 +1,111 @@
+/* Style for the email sequence container */
+.email-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Style for the email type selector */
+.email-type-selector select {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.email-type-selector select:hover {
+  background-color: #367B3A;
+}
+
+/* Style for each email step */
+.email-step {
+  margin-bottom: 30px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #ccc;
+  position: relative; /* This will help position the buttons */
+  padding-right: 100px; /* Give space for the buttons */
+}
+
+.email-step .buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  margin-top: 10px; /* Space between editor and buttons */
+}
+
+/* Style for the action buttons (Edit, Save, Publish, Cancel) */
+.email-step .buttons button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.email-step .buttons button:hover {
+  background-color: #367B3A;
+}
+
+/* Style for the editable elements */
+.editable-title,
+.editor-container {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.editable-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style for the Draft.js Editor */
+.editor-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  /* Set a minimum height but allow it to grow */
+  min-height: 200px;
+  overflow: auto;
+}
+
+/* Style for the content display */
+.content {
+  margin-top: 20px;
+}
+
+/* Styles for the "Create Sequence" button */
+.create-sequence-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-sequence-button button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.create-sequence-button button:hover {
+  background-color: #367B3A;
+}

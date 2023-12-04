@@ -1,0 +1,152 @@
+/* TargetingData.css */
+
+/* Page styles */
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px; /* Increase padding for spacing */
+  background-color: #f5f5f5; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center the content within the container */
+}
+
+/* Heading styles */
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Label styles */
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Dropdown styles */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Input styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* "or" text styles */
+p {
+  font-size: 18px; /* Bigger "Add Context" text */
+  margin: 10px 0;
+}
+
+/* Textarea styles for context */
+textarea[name="context"] {
+  width: 300%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Button container styles */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Submit button styles */
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Adjust the hover styles for the submit button */
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Center text horizontally */
+.center-text {
+  text-align: center;
+}
+
+/* Center text vertically and horizontally */
+.center-text.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Branding styles */
+.branding {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.branding h1 {
+  color: #0047ab; /* Atomic AI's primary blue color */
+  margin-bottom: 10px;
+}
+
+.branding p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* CRM button styles */
+.crm-button {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-bottom: 15px;
+}
+
+/* CRM button styles */
+.crm-button button {
+  background-color: #f0e68c; /* Yellowish color */
+  color: #000; /* Black text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+/* CRM button hover styles */
+.crm-button button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
